@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* background-color: rgb(91, 178, 255); */
+
+}   
+
+
+
+header {
+    display: flex;
+    background-color: rgb(195, 227, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.menu-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+}
+
+select{
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+}
+
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 3.75rem);
+    background-color: rgb(251, 253, 255) ;
+}
+
+
+.hero-section .headings {
+    text-align: center;
+}
