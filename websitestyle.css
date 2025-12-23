@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+
+
+
+.header .logo {
+    /* width: 10rem; */
+
+    height: 3rem;
+
+}
+
+.cup-image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10rem;
+
+
+}
+
+
+.search-input {
+    width: 35%;
+    border: 1.2px solid violet;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    outline: none;
+
+}
+
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.4rem;
+
+    background-color: yellow;
+
+    border-radius: 0.5rem;
+
+}
+
+
+.header-dropdown {
+    border: 1px solid violet;
+    padding: 0.4rem;
+    outline: none;
+    border-radius: 0.3rem;
+}
+
+
+.header-dropdown option {
+    outline: none;
+
+    border-radius: 2rem;
+}
