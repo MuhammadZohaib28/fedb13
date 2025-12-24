@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+header {
+    display: flex;
+    background-color: red;
+
+    
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.7rem;
+    top: 0;
+    position: sticky;
+    opacity: 120px;
+}
+
+
+
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+
+    color: whitesmoke;
+}
+
+
+.menu-items li {
+    cursor: pointer;
+
+
+}
+
+
+.menu-items li:hover {
+    color: green;
+}
+
+
+
+
+
+header .logo {
+
+    width: 10rem;
+
+}
+
+
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+   
+}
+
+
+.btn-filled {
+    background-color: #F8D64C;
+    border: none;
+    outline: none;
+    padding: 0.65rem 1rem;
+    font-weight: 600;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-filled:hover {
+  transform: translateY(-10px);
+
+}
+
+
+.btn-outined{
+     background-color: transparent;
+    border: 2px solid whitesmoke;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+
+
+.btn-outined:hover{
+    transform: translateY(-10px);
+    background-color: #F8D64C;
+    border: none;
+    padding: 0.7rem 1rem;
+}
+
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: calc(100vh - 4.5rem);
+}
+
+
+
+
+.hero-section{
+    background: url("https://vlektra.com/wp-content/uploads/2025/11/1969-Slide-Show-scaled.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.hero-section-btn-outline{
+    color: whitesmoke
+}   
